@@ -12,9 +12,12 @@ setup(
     description="Python security.txt parser",
     license="MIT",
     author="Tom CHAMBARETAUD",
+    author_email="tom.chambaretaud@protonmail.com",
+    description="A Python project to parse security.txt file and URL.\nSee more in https://github.com/AethliosIK/securitytxt-parsing",
     packages=find_packages(),
     install_requires=["requests"],
     long_description=long_description,
+    url="https://github.com/AethliosIK/securitytxt-parsing",
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
