@@ -7,17 +7,16 @@ except IOError:
     long_description = ""
 
 setup(
-    name="securitytxt-parsing",
+    name="securitytxt-parser",
     version="1.0",
-    description="Python security.txt parser",
     license="MIT",
     author="Tom CHAMBARETAUD",
     author_email="tom.chambaretaud@protonmail.com",
-    description="A Python project to parse security.txt file and URL.\nSee more in https://github.com/AethliosIK/securitytxt-parsing",
+    description="A Python project to parse security.txt file and URL.",
     packages=find_packages(),
     install_requires=["requests"],
     long_description=long_description,
-    url="https://github.com/AethliosIK/securitytxt-parsing",
+    url="https://github.com/AethliosIK/securitytxt-parser",
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",

@@ -2,10 +2,10 @@
 
 ## Install
 
-Install from [pip](https://pypi.org/project/securitytxt-parsing/1.0/):
+Install from [pip](https://pypi.org/project/securitytxt-parser/1.0/):
 
 ```
-▶ pip install securitytxt-parsing==1.0
+▶ pip install securitytxt-parser==1.0
 ```
 
 ## Usage
