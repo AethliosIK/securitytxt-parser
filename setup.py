@@ -11,12 +11,12 @@ setup(
     version="1.0",
     description="Python security.txt parser",
     license="MIT",
-    author="Aethlios",
+    author="Tom CHAMBARETAUD",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["requests"],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.7",
     ]
 )
