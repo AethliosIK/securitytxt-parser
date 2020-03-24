@@ -6,6 +6,7 @@ import requests
 FIELD_CHOICES = ["contact", "encryption", "acknowledgements", "preferred-languages", "canonical", "policy", "hiring"]
 
 class SecurityTxtNotValid(Exception):
+    """ SecurityTxt parsed is not valid. """
     pass
 
 class SecurityTxt:
