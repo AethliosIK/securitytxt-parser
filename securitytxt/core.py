@@ -5,6 +5,9 @@ import requests
 
 FIELD_CHOICES = ["contact", "encryption", "acknowledgements", "preferred-languages", "canonical", "policy", "hiring"]
 
+class SecurityTxtNotValid(Exception):
+    pass
+
 class SecurityTxt:
 
     def __init__(self, field_choices=FIELD_CHOICES):
