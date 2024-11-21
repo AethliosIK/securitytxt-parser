@@ -14,7 +14,7 @@ Parse a `security.txt` variable:
 ```python3
 from securitytxt import SecurityTxt
 
-sectxt = "Contact: tom.chambaretaud@protonmail.com\nAcknowledgements: https://yeswehack.com/programs/yes-we-hack"
+sectxt = "Contact: contact@aeth.cc\nAcknowledgements: https://yeswehack.com/programs/yes-we-hack"
 s = SecurityTxt()
 if s.parse(sectxt):
     print("Contact : %s" % s.contact())
@@ -35,7 +35,7 @@ Set `security.txt` fields :
 ```python3
 from securitytxt import SecurityTxt
 
-sectxt = "Contact: tom.chambaretaud@protonmail.com\nAcknowledgements: https://yeswehack.com/programs/yes-we-hack"
+sectxt = "Contact: contact@aeth.cc\nAcknowledgements: https://yeswehack.com/programs/yes-we-hack"
 s = SecurityTxt(field_choices=['contact'])
 if s.parse(sectxt):
     print(s.to_dict())
